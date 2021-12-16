@@ -1,0 +1,117 @@
+html{
+    background: linear-gradient(to right,lightyellow, pink,plum,  lightblue);
+    width:100%;
+}
+h1{
+   
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+    border:none;
+    border-bottom: 2px solid whitesmoke;
+    padding-bottom: 5%;
+    font-family: sans-serif;
+    
+    
+   
+}
+
+.container{
+    display:flex;
+    align-content: center;
+    background-color:white;
+    margin-left: 350px;
+    margin-right:350px ;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding-bottom: 6%;
+    flex-direction: column;
+    padding-left:10px;
+    border-radius:20px;
+    margin-top: 4%;
+    border:none;
+    border-top: 2px solid whitesmoke;
+ 
+}
+
+
+#fname{
+    
+    padding: 10px;
+    padding-right:50%;
+    border:none;
+    border-bottom: 2px solid grey;
+    margin-left: 12%;
+    
+    
+
+
+    
+}
+#fname[type=text]:focus {
+    border: 3px solid #555;
+
+  }
+
+label{
+   font-size: 1em;
+   margin-left: 12%;
+   font-family: sans-serif;
+   
+
+}
+#lname{
+    padding: 10px;
+    border:none;
+    border-bottom: 2px solid grey;
+    margin-left: 12%;
+    padding-right:50%;
+    
+}
+#lname[type=text]:focus {
+    border: 3px solid #555;
+  }
+  #pnum{
+    padding: 10px;
+    padding-right:50%;
+    border:none;
+    border-bottom: 2px solid grey;
+    margin-left: 12%;
+    
+}
+#pnum[type=text]:focus {
+    border: 3px solid grey;
+  }
+  #email{
+    padding: 10px;
+    padding-right:50%;
+    border:none;
+    border-bottom: 2px solid grey;
+    margin-left: 12%;
+    
+}
+#email[type=text]:focus {
+    border: 3px solid #555;
+  }
+
+  footer{
+      margin-top: 2%;
+      margin-left: 32%;
+  
+  }
+  @media screen and (max-width: 600px) {
+    #fname, #lname, #pmun, #email input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+}  
+
+#submitbutton{
+    margin-top:10%;
+    padding: 3%;
+    margin-left: 30%;
+    margin-right:31%;
+    font-size:20px;
+    border: 1% solid lightgrey;
+    border-radius: 30px;
+    
+}
